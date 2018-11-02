@@ -15,10 +15,11 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "dev": "webpack-dev-server --content-base public"
+    "dev": "webpack-dev-server --content-base public",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "description": "Labstore is a laboratory inventory management program. Anyone can browse or search for items in the database. Admin users can manage the inventory after logging in.",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
     "lodash": "^4.17.11"
   },
