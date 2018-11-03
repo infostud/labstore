@@ -2,7 +2,7 @@
   "name": "Labstore",
   "version": "0.0.0",
   "devDependencies": {
-    "cross-env": "^5.1.5",
+    "cross-env": "^5.2.0",
     "css-loader": "^1.0.1",
     "mini-css-extract-plugin": "^0.4.4",
     "serve": "^10.0.2",

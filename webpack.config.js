@@ -1,6 +1,6 @@
 const webpack = require('webpack');
+const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
 const mode = process.env.NODE_ENV || 'development';
 const prod = mode === 'production';
 
@@ -12,7 +12,7 @@ module.exports = {
 		extensions: ['.js', '.html']
 	},
 	output: {
-		path: __dirname + '/public',
+		path: path.resolve(__dirname + '/public'),
 		filename: '[name].js',
 		chunkFilename: '[name].[id].js'
 	},
